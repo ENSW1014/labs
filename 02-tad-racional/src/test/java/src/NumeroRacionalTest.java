@@ -73,7 +73,7 @@ public class NumeroRacionalTest {
 
     @Test
     public void testDivision(){
-        NumeroRacional n3 = n1.mul(n2);
+        NumeroRacional n3 = n1.div(n2);
         assertEquals(4, n3.getNumerador());
         assertEquals(3, n3.getDenominador());
     }
