@@ -74,8 +74,8 @@ public class NumeroRacionalTest {
     @Test
     public void testDivision(){
         NumeroRacional n3 = n1.div(n2);
-        assertEquals(4, n3.getNumerador());
-        assertEquals(3, n3.getDenominador());
+        assertEquals(3, n3.getNumerador());
+        assertEquals(4, n3.getDenominador());
     }
 
     @Test
@@ -88,7 +88,7 @@ public class NumeroRacionalTest {
     @Test
     public void testToFloat(){
         assertEquals(0.5, n1.toFloat(), 0.00001);        
-        assertEquals(0.6666, n2.toFloat(), 0.00001);
+        assertEquals(0.6666, n2.toFloat(), 0.0001);
     }
 
 }
